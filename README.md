@@ -1,19 +1,28 @@
 Project Coursework for Getting and Cleaning Data
 =======
-## H2 Introduction
+Introduction
+-------
 This script takes the raw data provided by the Human Activity Recognition Using Smartphones Dataset and produces a cleansed dataset. 
 
 See CodeBook.md for a description of the data produced.
 
-## H2 Source of data:
+Source of data:
+-------
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-## H2 Libraries used in this script
+Libraries used in this script
+-------
 library(dplyr)
+
 library(tidyr)
+
 library(reshape2)
 
-## H2 Script Breakdown
+
+Script Breakdown
+-------
+
 The script for producing the tidy data is broken into 10 sections:
 1. Read the raw data into memory
 2. Each dataframe is given meaningful column names
@@ -26,7 +35,8 @@ The script for producing the tidy data is broken into 10 sections:
 9. Write the tidied data into a file "tidydata.txt"
 10. Remove all data and temporary variables used.
 
-## H2 Instructions for running this script
+Instructions for running this script
+-------
 1. Download and unzip the source data file into the working directory.
 2. Install the required libraries.
 3. Run run_analysis.R.
