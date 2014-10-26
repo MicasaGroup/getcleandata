@@ -27,9 +27,8 @@ Notes on Measurement Type (feature vector)
 
 2. The dataset provided here shows the average value of the mean and standard deviation of the measurements provided in the raw data.
 
-..* To obtain the standard deviation, all feature vector with std() in the text are included
-
-..* To obtain the mean, all feature vectors with mean() in the text are included.
+  * To obtain the standard deviation, all feature vector with std() in the text are included
+  * To obtain the mean, all feature vectors with mean() in the text are included.
 
 3. The feature vector, which is displayed in the variable column, is expanded to a full description on using the following rules:
 
@@ -58,10 +57,11 @@ Notes on Measurement Type (feature vector)
 4. Where the feature vector description contains a duplicate 'bodybody', the description has been replaced with a single 'body'.
 
 
-H3 Note about the file:
+Note about the file:
 -------
 The data tidydata.txt is written to file using the following R command
-`write.table(averageMeasurement, file="tidydata.txt", row.name=FALSE)
+
+`write.table(averageMeasurement, file="tidydata.txt", row.name=FALSE)`
 
 
 License:
