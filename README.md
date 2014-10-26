@@ -24,15 +24,25 @@ Script Breakdown
 -------
 
 The script for producing the tidy data is broken into 10 sections:
-1. Read the raw data into memory
-2. Each dataframe is given meaningful column names
+
+1. Read the raw data into memory.
+
+2. Each dataframe is given meaningful column names.
+
 3. For both the test and train dataset, merge the subject, activity and measurment data; then merge the test and training data.
-4. Clean up any dataset that is no longer used (to release memory)
-5. Extract the mean and standard deviation of each measurement type
-6. Change the activity name to show the descriptive name
+
+4. Clean up any dataset that is no longer used (to release memory).
+
+5. Extract the mean and standard deviation of each measurement type.
+
+6. Change the activity name to show the descriptive name.
+
 7. Reshape the data to be a long data set, then calculate the average for each activity/subject/measurement type.
+
 8. Tidied the data in the measurement.
-9. Write the tidied data into a file "tidydata.txt"
+
+9. Write the tidied data into a file "tidydata.txt".
+
 10. Remove all data and temporary variables used.
 
 Instructions for running this script
