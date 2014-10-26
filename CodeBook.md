@@ -32,27 +32,17 @@ Notes on Measurement Type (feature vector)
 
 3. The feature vector, which is displayed in the variable column, is expanded to a full description on using the following rules:
 
-..* - becomes space
-
-..* mean() becomes mean
-
-..* std() becomes standard deviation
-
-..* first letter t becomes time
-
-..* first letter f becomes frequency
-
-..* Acc becomes accelerometer
-
-..* Gyro becomes gyroscope
-
-..* Mag becomes magnitude
-
-..* Body becomes body
-
-..* Gravity becomes gravity
-
-..* Jerk becomes jerk
+  * - becomes space
+  * mean() becomes mean
+  * std() becomes standard deviation
+  * first letter t becomes time
+  * first letter f becomes frequency
+  * Acc becomes accelerometer
+  * Gyro becomes gyroscope
+  * Mag becomes magnitude
+  * Body becomes body
+  * Gravity becomes gravity
+  * Jerk becomes jerk
 
 4. Where the feature vector description contains a duplicate 'bodybody', the description has been replaced with a single 'body'.
 
