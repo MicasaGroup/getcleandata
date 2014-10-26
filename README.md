@@ -1,5 +1,5 @@
-## H1 Project Coursework for Getting and Cleaning Data
-
+Project Coursework for Getting and Cleaning Data
+=======
 ## H2 Introduction
 This script takes the raw data provided by the Human Activity Recognition Using Smartphones Dataset and produces a cleansed dataset. 
 
